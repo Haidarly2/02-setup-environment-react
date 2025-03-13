@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Counter from "./Counter";
 import Greeting from "./Greeting";
+import Todolist from "./Todolist";
 
 function Example() {
   const [name, setName] = useState('');
@@ -69,6 +70,7 @@ function App() {
       <Greeting name="Moriarty" />
       <Counter />
       <Example />
+      <Todolist />
       <Footer />
     </div>
   );
