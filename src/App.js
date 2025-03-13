@@ -1,5 +1,6 @@
 // export default App;
 import React from 'react';
+import Counter from "./Counter";
 
 // Komponen Header
 function Header() {
@@ -34,6 +35,7 @@ function App() {
     <div>
       <Header />
       <Main />
+      <Counter />
       <Footer />
     </div>
   );
